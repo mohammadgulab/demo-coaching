@@ -2,7 +2,7 @@
 (function(){
 var el=document.getElementById('i18n');if(!el)return;var cfg=JSON.parse(el.textContent);
 var btn=document.createElement('button');btn.className='lang-btn';btn.type='button';document.body.appendChild(btn);
-var SEL='h1,h2,h3,h4,h5,h6,p,a,span,li,button:not(.lang-btn),label,small,figcaption,strong,em,option,div.small,th,td';
+var SEL='h1,h2,h3,h4,h5,h6,p,a,span,li,button:not(.lang-btn),label,small,figcaption,strong,em,option,div.small,th,td,dt';
 var cur='en';
 function apply(l){
  var t=l==='en'?null:cfg.t;
